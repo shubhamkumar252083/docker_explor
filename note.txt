@@ -11,4 +11,4 @@ now i want to run a command so using docker-compose run is gona allow us to run 
 and "command: python manage.py runserver 0.0.0.0:7000" inside docker-compose is the command for running webserver.
 
 after running this commands we can see the changes (like- "core", manage.py, ..... get added)
-
+and now "app" image is a base image, you can use now use to run multiple django application if u want to - for eg (inside the folder "anotherDjangoApplication")
