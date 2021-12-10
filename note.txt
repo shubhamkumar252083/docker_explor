@@ -1,0 +1,2 @@
+for changing the contents of a containe we have to use "sudo"
+like - "sudo mkdir templates"
