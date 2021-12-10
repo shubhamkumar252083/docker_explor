@@ -1,1 +1,11 @@
 in this branch we r connecting docker container with our host's code editor. with this way we will be able to modify the containts of running container using our code editor.
+
+
+the command [ docker-compose run --rm app django-admin startproject core .] --> this command is going to build container for us, but i dont want to do that initially. i want to start the container separatly, bcz i want to perform some other actions before i ran the container, so using -
+"--rm" to remove the container once everything's run,
+"app" the image name,
+now i want to run a command so using docker-compose run is gona allow us to run a one-time commmad so if u remember what's is happening here in our "docker-compose" file at the end it's going to run the server. now at the moment we don't have django application, we don't have any volumes .... and this is only going to appear and start once we've actually build the container so -
+
+"docker-compose run --rm app" these r commands for essentially the container,
+"django-admin startproject core ." the command for django application, 
+and "command: python manage.py runserver 0.0.0.0:7000" inside docker-compose is the command for running webserver.
