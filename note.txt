@@ -9,3 +9,6 @@ now i want to run a command so using docker-compose run is gona allow us to run 
 "docker-compose run --rm app" these r commands for essentially the container,
 "django-admin startproject core ." the command for django application, 
 and "command: python manage.py runserver 0.0.0.0:7000" inside docker-compose is the command for running webserver.
+
+after running this commands we can see the changes (like- "core", manage.py, ..... get added)
+
