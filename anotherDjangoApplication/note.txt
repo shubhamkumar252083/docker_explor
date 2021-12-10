@@ -1,6 +1,0 @@
-in this folder just copy and past the "docker-compose.yml" and "Dockerfile" 
-
-in "docker-compose.yml" file change the ports and change the container_name: django_container to container_name: django_container2 and change command: python manage.py runserver 0.0.0.0:7000 to command: python manage.py runserver 0.0.0.0:7001
-
-"docker-compose run --rm app django-admin startproject core ."
-and run "docker-compose up" to start the container
